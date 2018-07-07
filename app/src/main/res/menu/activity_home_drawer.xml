@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homeItem"
+            android:checked="true"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/panelItem"
+            android:title="Nearby Seller" />
+        <item
+            android:id="@+id/panCatItem"
+            android:title="Panels Catalogue" />
+        <item
+            android:id="@+id/logout"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="About Us">
+        <menu>
+            <item
+                android:id="@+id/usageItem"
+                android:title="Usage" />
+            <item
+                android:id="@+id/contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/help"
+                android:title="Help" />
+
+        </menu>
+    </item>
+
+</menu>

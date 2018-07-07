@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#1A2C56"
+    tools:context=".TbbdAct$PlaceholderFragment"
+    android:padding="5dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/border_bg1"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="#FDFEFE"/>
+
+            <com.github.mikephil.charting.charts.LineChart
+                android:id="@+id/chart2"
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="#FDFEFE"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  "/>
+
+            <!--com.jjoe64.graphview.GraphView
+                android:id="@+id/graphEN"
+                android:layout_width="300sp"
+                android:layout_height="300sp"
+                android:layout_gravity="center" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  "/>
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graphAN"
+                android:layout_width="300sp"
+                android:layout_height="300sp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  "/-->
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graphDH"
+                android:layout_width="300sp"
+                android:layout_height="300sp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  "/>
+
+            <com.jjoe64.graphview.GraphView
+                android:id="@+id/graphTP"
+                android:layout_width="300sp"
+                android:layout_height="300sp"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  "/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

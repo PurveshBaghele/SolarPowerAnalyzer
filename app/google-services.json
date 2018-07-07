@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "825350288717",
+    "firebase_url": "https://solaranalyser-67172.firebaseio.com",
+    "project_id": "solaranalyser-67172",
+    "storage_bucket": "solaranalyser-67172.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825350288717:android:6232610093a32ac8",
+        "android_client_info": {
+          "package_name": "com.example.administrator.mymapapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825350288717-a1it1o6h7uofhi68b87pu3pgs8t17ulk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.administrator.mymapapp",
+            "certificate_hash": "1082b811e58d15e57abb1665f2902adff39e7575"
+          }
+        },
+        {
+          "client_id": "825350288717-77eiscr47vusulljmdqgpukdcqp69nv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrirliwKU1dc5kt6KdA-AL_7_ZKWqm3Ic"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825350288717-77eiscr47vusulljmdqgpukdcqp69nv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

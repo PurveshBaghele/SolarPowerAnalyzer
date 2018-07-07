@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.mymapapp.Profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp">
+
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="*"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignBaseline="@+id/name"
+            android:layout_alignBottom="@+id/name"
+            android:layout_toEndOf="@+id/name" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="8dp"
+            android:layout_alignTop="@+id/mac"
+            android:layout_alignStart="@+id/textView11" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignBaseline="@+id/contact"
+            android:layout_alignBottom="@+id/contact"
+            android:layout_alignStart="@+id/textView10" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignBaseline="@+id/address"
+            android:layout_alignBottom="@+id/address"
+            android:layout_alignStart="@+id/textView13" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignBaseline="@+id/email"
+            android:layout_alignBottom="@+id/email"
+            android:layout_alignStart="@+id/textView14" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="37dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.463"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.019"
+            app:srcCompat="@drawable/user" />
+
+        <Button
+            android:id="@+id/change"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/layout_back"
+            android:text="Change Picture"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.462"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.234" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/bname"
+            android:layout_below="@+id/change"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/edittext_bck"
+
+            android:ems="10"
+
+            android:hint="Name"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/bname"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/edittext_bck"
+
+            android:ems="10"
+
+            android:hint="Business Name"
+            android:padding="10dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/ac"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/bname"
+            android:layout_below="@+id/bname"
+            android:layout_marginTop="43dp"
+            android:background="@drawable/edittext_bck"
+
+            android:ems="10"
+
+            android:hint="City"
+            android:padding="10dp" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/mac"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_alignStart="@+id/ac"
+            android:layout_below="@+id/ac"
+            android:layout_marginTop="42dp"
+            android:background="@drawable/edittext_bck"
+
+            android:ems="10"
+
+            android:hint="Cities of operation"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="19dp"
+            android:text="Complete Your Profile"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/contact"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/mac"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/edittext_bck"
+            android:ems="10"
+
+            android:hint="Contact Number"
+
+            android:inputType="number"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/contact"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/edittext_bck"
+
+            android:ems="10"
+
+            android:hint="Address"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/address"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/edittext_bck"
+
+            android:ems="10"
+
+            android:hint="Email"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/layout_back"
+            android:text="Submit"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.462"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.234"
+            android:onClick="submit_click"
+            android:layout_alignBaseline="@+id/skip"
+            android:layout_alignBottom="@+id/skip"
+            android:layout_alignStart="@+id/email" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignBaseline="@+id/bname"
+            android:layout_alignBottom="@+id/bname"
+            android:layout_alignStart="@+id/textView12" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*"
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_alignBaseline="@+id/ac"
+            android:layout_alignBottom="@+id/ac"
+            android:layout_alignStart="@+id/textView9" />
+        <Button
+            android:id="@+id/skip"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/layout_back"
+            android:text="Skip->"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.462"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.234"
+            android:onClick="skip_click"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/email"
+            android:layout_alignEnd="@+id/email" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

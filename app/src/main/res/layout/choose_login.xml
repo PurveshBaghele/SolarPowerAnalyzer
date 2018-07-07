@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue"
+    tools:context="com.example.administrator.mymapapp.ChooseLogin">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:padding="20dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:id="@+id/imgusr"
+        android:src="@drawable/u2"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USER"
+        android:layout_below="@+id/imgusr"
+        android:id="@+id/txtusr"
+        android:textColor="#ffffff"
+        android:padding="20dp"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imgadmin"
+        android:background="@drawable/a2"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txtusr"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELLER"
+        android:padding="20dp"
+
+        android:layout_below="@+id/imgadmin"
+        android:id="@+id/txtadmin"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:background="#363636"
+    tools:context="com.example.administrator.mymapapp.AboutUs">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:id="@+id/main"
+    android:textColor="#000000"
+    android:background="#ffffff"
+    android:textStyle="bold"
+
+    android:padding="10dp"
+    android:text="
+    OUR VISION
+SOLAR for every home, building and rooftop.
+SOLAR for every city and village."
+/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/main1"
+        android:textColor="@color/colorOrangeDark"
+        android:background="#ffffff"
+        android:textStyle="bold"
+android:layout_below="@id/main"
+        android:padding="10dp"
+        android:text="
+#LetsSolarize India.
+"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:id="@+id/two"
+        android:layout_below="@+id/main1"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:background="#ffffff"
+android:textSize="15sp"
+        android:text="         The Sun has been around since life has existed, is perhaps the oldest thing known to mankind and will continue to be omnipresent
+ for years to come. In large sections of our society, we worship the Sun as it is considered holy and powerful. It belongs to
+everyone equally and is the ultimate source of energy.
+Our mission is to channel this energy to power every roof, every home, every building, every village and every city of our country.
+ Everyone should be able to proudly proclaim – it’s SPA.
+        That’s why we created SPA.
+     The recent innovations and rapid deployment of large-scale solar projects have lead to a better quality and a much lower cost
+solar power. Still, solar has not percolated down to our homes, offices and everyday lives and we continue to pay a very high price
+ for electricity. "
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/two"
+        android:textStyle="bold"
+        android:background="#a9a9a9"
+        android:padding="10dp"
+        android:layout_marginTop="1dp"
+        android:text="CONTACT US
+
+        Shri Ramdeobaba College
+of Engineering and Management,
+Ramdeo Tekdi, Gittikhadan,
+Katol Road,
+Nagpur - 440 013 (M.S.) (India) "
+
+android:textAlignment="textStart">
+</TextView>
+</RelativeLayout>
+</ScrollView>
